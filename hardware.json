@@ -1,0 +1,16 @@
+{
+    "type":"MCU",
+    "name":"AB32VG1",
+    "package":["LQFP144","LQFP100","LQFP64","LQFP48","QFN36"],
+    "version":"1.0.0",
+    "LQFP48": {
+        "name":"AB32VG1C",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "GPIO":18
+    },
+    "QFN36": {
+        "name":"AB32VG1T",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "GPIO":26
+    }
+}
