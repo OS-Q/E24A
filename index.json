@@ -1,0 +1,36 @@
+{
+    "type":"SoC",
+    "name":"V9400",
+    "title": "Vango V9400 MCU",
+    "description":"Vango Power MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":26,
+        "DMIPS": 25,
+        "CoreMark": 85
+    },
+    "manufacturer": {
+        "vendor":"autochips",
+        "homepage":"http://www.vangotech.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/V9400.git"
+    },
+    "version":"1.0.0",
+    "series":["V9400","V9430","V9431","V9410","V9420A"],
+    "package":["LQFP100","LQFP80","LQFP64"],
+    "peripheral": ["IEC 62053","ADC","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "Vango",
+        "IEC 62053","ADC","I2C","RTC","SPI","UART",
+        "5.5V","2.7V"
+    ]
+}
+
